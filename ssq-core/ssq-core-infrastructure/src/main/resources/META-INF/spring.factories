@@ -1,0 +1,9 @@
+org.springframework.boot.autoconfigure.EnableAutoConfig=\
+  com.polykhel.ssq.config.apidoc.SpringfoxAutoConfig,\
+  com.polykhel.ssq.config.apidoc.SpringfoxPluginsAutoConfig,\
+  com.polykhel.ssq.config.CoreProperties,\
+  com.polykhel.ssq.security.uaa.UaaAutoConfig,\
+  com.polykhel.ssq.config.info.InfoContributorConfig,\
+  com.polykhel.ssq.config.metric.MetricsEndpointConfig,\
+  com.polykhel.ssq.config.metric.MetricsLoggingExportConfig,\
+  com.polykhel.ssq.security.ssl.UndertowSSLConfig
