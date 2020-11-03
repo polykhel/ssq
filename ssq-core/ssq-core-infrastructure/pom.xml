@@ -24,6 +24,11 @@
             <groupId>com.polykhel</groupId>
             <artifactId>ssq-core-utils</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.polykhel</groupId>
+            <artifactId>ssq-core-test</artifactId>
+            <scope>test</scope>
+        </dependency>
 
         <!-- Spring Boot -->
         <dependency>
