@@ -32,7 +32,7 @@ public class CustomSpringfoxCustomizer implements SpringfoxCustomizer, Ordered {
     /**
      * <p>Constructor for CustomSpringfoxCustomizer.</p>
      *
-     * @param properties a {@link com.polykhel.ssq.config.CoreProperties.ApiDocs} object.
+     * @param properties a {@link CoreProperties.ApiDocs} object.
      */
     public CustomSpringfoxCustomizer(CoreProperties.ApiDocs properties) {
         this.properties = properties;

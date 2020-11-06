@@ -44,7 +44,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
                 "core.api-docs.servers[0].url=test server url",
                 "management.endpoints.web.base-path=/management",
                 "spring.application.name=testApp"
-
         })
 @ActiveProfiles(SPRING_PROFILE_API_DOCS)
 @AutoConfigureMockMvc

@@ -19,11 +19,12 @@
     <dependencies>
         <dependency>
             <groupId>com.polykhel</groupId>
-            <artifactId>ssq-core-persistence</artifactId>
+            <artifactId>ssq-core-dto</artifactId>
         </dependency>
         <dependency>
             <groupId>com.polykhel</groupId>
-            <artifactId>ssq-core-dto</artifactId>
+            <artifactId>ssq-core-test</artifactId>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

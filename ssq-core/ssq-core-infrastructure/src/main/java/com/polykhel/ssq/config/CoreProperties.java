@@ -58,7 +58,7 @@ public class CoreProperties {
     /**
      * <p>Getter for the field <code>async</code>.</p>
      *
-     * @return a {@link com.polykhel.ssq.config.CoreProperties.Async} object.
+     * @return a {@link CoreProperties.Async} object.
      */
     public Async getAsync() {
         return async;
@@ -67,7 +67,7 @@ public class CoreProperties {
     /**
      * <p>Getter for the field <code>http</code>.</p>
      *
-     * @return a {@link com.polykhel.ssq.config.CoreProperties.Http} object.
+     * @return a {@link CoreProperties.Http} object.
      */
     public Http getHttp() {
         return http;
@@ -76,7 +76,7 @@ public class CoreProperties {
     /**
      * <p>Getter for the field <code>database</code>.</p>
      *
-     * @return a {@link com.polykhel.ssq.config.CoreProperties.Database} object.
+     * @return a {@link CoreProperties.Database} object.
      */
     public Database getDatabase() {
         return database;
@@ -85,7 +85,7 @@ public class CoreProperties {
     /**
      * <p>Getter for the field <code>cache</code>.</p>
      *
-     * @return a {@link com.polykhel.ssq.config.CoreProperties.Cache} object.
+     * @return a {@link CoreProperties.Cache} object.
      */
     public Cache getCache() {
         return cache;
@@ -94,7 +94,7 @@ public class CoreProperties {
     /**
      * <p>Getter for the field <code>mail</code>.</p>
      *
-     * @return a {@link com.polykhel.ssq.config.CoreProperties.Mail} object.
+     * @return a {@link CoreProperties.Mail} object.
      */
     public Mail getMail() {
         return mail;
@@ -103,7 +103,7 @@ public class CoreProperties {
     /**
      * <p>Getter for the field <code>registry</code>.</p>
      *
-     * @return a {@link com.polykhel.ssq.config.CoreProperties.Registry} object.
+     * @return a {@link CoreProperties.Registry} object.
      */
     public Registry getRegistry() {
         return registry;
@@ -112,7 +112,7 @@ public class CoreProperties {
     /**
      * <p>Getter for the field <code>security</code>.</p>
      *
-     * @return a {@link com.polykhel.ssq.config.CoreProperties.Security} object.
+     * @return a {@link CoreProperties.Security} object.
      */
     public Security getSecurity() {
         return security;
@@ -121,7 +121,7 @@ public class CoreProperties {
     /**
      * <p>Getter for the field <code>api-docs</code>.</p>
      *
-     * @return a {@link com.polykhel.ssq.config.CoreProperties.ApiDocs} object.
+     * @return a {@link CoreProperties.ApiDocs} object.
      */
     public ApiDocs getApiDocs() {
         return apiDocs;
@@ -130,7 +130,7 @@ public class CoreProperties {
     /**
      * <p>Getter for the field <code>metrics</code>.</p>
      *
-     * @return a {@link com.polykhel.ssq.config.CoreProperties.Metrics} object.
+     * @return a {@link CoreProperties.Metrics} object.
      */
     public Metrics getMetrics() {
         return metrics;
@@ -139,7 +139,7 @@ public class CoreProperties {
     /**
      * <p>Getter for the field <code>logging</code>.</p>
      *
-     * @return a {@link com.polykhel.ssq.config.CoreProperties.Logging} object.
+     * @return a {@link CoreProperties.Logging} object.
      */
     public Logging getLogging() {
         return logging;
@@ -157,7 +157,7 @@ public class CoreProperties {
     /**
      * <p>Getter for the field <code>social</code>.</p>
      *
-     * @return a {@link com.polykhel.ssq.config.CoreProperties.Social} object.
+     * @return a {@link CoreProperties.Social} object.
      */
     public Social getSocial() {
         return social;
@@ -166,7 +166,7 @@ public class CoreProperties {
     /**
      * <p>Getter for the field <code>gateway</code>.</p>
      *
-     * @return a {@link com.polykhel.ssq.config.CoreProperties.Gateway} object.
+     * @return a {@link CoreProperties.Gateway} object.
      */
     public Gateway getGateway() {
         return gateway;
@@ -175,7 +175,7 @@ public class CoreProperties {
     /**
      * <p>Getter for the field <code>clientApp</code>.</p>
      *
-     * @return a {@link com.polykhel.ssq.config.CoreProperties.ClientApp} object.
+     * @return a {@link CoreProperties.ClientApp} object.
      */
     public ClientApp getClientApp() {
         return clientApp;
@@ -184,7 +184,7 @@ public class CoreProperties {
     /**
      * <p>Getter for the field <code>auditEvents</code>.</p>
      *
-     * @return a {@link com.polykhel.ssq.config.CoreProperties.AuditEvents} object.
+     * @return a {@link CoreProperties.AuditEvents} object.
      */
     public AuditEvents getAuditEvents() {
         return auditEvents;

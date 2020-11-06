@@ -1,0 +1,1 @@
+package com.polykhel.ssq.web.rest;

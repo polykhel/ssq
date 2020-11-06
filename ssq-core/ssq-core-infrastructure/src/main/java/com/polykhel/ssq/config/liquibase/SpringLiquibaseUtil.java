@@ -55,7 +55,7 @@ public class SpringLiquibaseUtil {
      * @param liquibaseProperties  a {@link org.springframework.boot.autoconfigure.liquibase.LiquibaseProperties} object.
      * @param dataSource           a {@link DataSource} object.
      * @param dataSourceProperties a {@link org.springframework.boot.autoconfigure.jdbc.DataSourceProperties} object.
-     * @return a {@link com.polykhel.ssq.config.liquibase.AsyncSpringLiquibase} object.
+     * @return a {@link AsyncSpringLiquibase} object.
      */
     public static AsyncSpringLiquibase createAsyncSpringLiquibase(Environment env, Executor executor, DataSource liquibaseDatasource, LiquibaseProperties liquibaseProperties, DataSource dataSource, DataSourceProperties dataSourceProperties) {
         AsyncSpringLiquibase liquibase = new AsyncSpringLiquibase(executor, env);

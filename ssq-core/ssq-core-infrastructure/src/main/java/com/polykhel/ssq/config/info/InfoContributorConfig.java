@@ -21,7 +21,7 @@ public class InfoContributorConfig {
      * Active Profiles Info Contributor
      *
      * @param environment a {@link ConfigurableEnvironment} object.
-     * @return a {@link com.polykhel.ssq.config.info.ActiveProfilesInfoContributor} object.
+     * @return a {@link ActiveProfilesInfoContributor} object.
      */
     @Bean
     @ConditionalOnEnabledInfoContributor("active-profiles")

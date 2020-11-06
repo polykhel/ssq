@@ -18,7 +18,7 @@ public class MetricsEndpointConfig {
      * Metrics Endpoint
      *
      * @param meterRegistry a {@link MeterRegistry} object.
-     * @return a {@link com.polykhel.ssq.config.metric.MetricsEndpoint} object.
+     * @return a {@link MetricsEndpoint} object.
      */
     @Bean
     @ConditionalOnBean({MeterRegistry.class})

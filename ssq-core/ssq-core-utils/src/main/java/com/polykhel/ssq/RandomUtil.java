@@ -1,6 +1,5 @@
 package com.polykhel.ssq;
 
-import lombok.experimental.UtilityClass;
 import org.apache.commons.lang3.RandomStringUtils;
 
 import java.security.SecureRandom;
@@ -8,8 +7,7 @@ import java.security.SecureRandom;
 /**
  * Utility class for generating random Strings.
  */
-@UtilityClass
-public class RandomUtil {
+public final class RandomUtil {
 
     private static final int DEF_COUNT = 20;
 
@@ -18,6 +16,9 @@ public class RandomUtil {
     static {
         SECURE_RANDOM = new SecureRandom();
         SECURE_RANDOM.nextBytes(new byte[64]);
+    }
+
+    private RandomUtil() {
     }
 
     /**

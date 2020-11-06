@@ -65,7 +65,7 @@ public class SpringfoxAutoConfig {
     /**
      * <p>Constructor for SpringfoxAutoConfig.</p>
      *
-     * @param properties a {@link com.polykhel.ssq.config.CoreProperties} object.
+     * @param properties a {@link CoreProperties} object.
      */
     public SpringfoxAutoConfig(CoreProperties properties) {
         this.properties = properties.getApiDocs();
